@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "atividade-mobile01",
+    "slug": "atividade-mobile01",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,14 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mchaves7.atividademobile01"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.mchaves7.atividademobile01"
     },
     "web": {
       "bundler": "metro",
@@ -37,6 +39,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9e6b671a-76b5-4903-8d6b-a826098173c2"
+      }
+    },
+    "owner": "m.chaves7",
+    "updates": {
+      "url": "https://u.expo.dev/9e6b671a-76b5-4903-8d6b-a826098173c2"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
